@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Orders"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "OrderDate": {
+      "type": "datetime"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "ShippedDate": {
+      "type": "datetime"
+    },
+    "Dispatched": {
+      "type": "boolean"
+    }
+  }
+}
